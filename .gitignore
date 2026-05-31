@@ -1,0 +1,19 @@
+# 草稿、端到端测试记录、本地构建产物 — 不进公开仓库
+.build/
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/
+.idea/
+
+# Node / Python(以防以后加脚本)
+node_modules/
+__pycache__/
+*.pyc
+.env
+.env.local
+
+# 本地运营 / 传播素材(不进公开仓库)
+media/
