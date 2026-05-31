@@ -2,7 +2,7 @@
 
 `smartbuy-skills` 的每个 skill 是一个**自包含文件夹**(`skills/{skill-name}/`,内含 `SKILL.md` + `references/` + `examples/`)。下面任一方式都会把整个文件夹带上;**别只拷 `SKILL.md`**,否则会丢掉 `references/` 里的判断规则,功能静默失效。
 
-> 先装好 [Claude Code](https://docs.claude.com/en/docs/claude-code)。把下文 `<your-github-username>` 换成你实际的 GitHub 用户名 / 组织名。
+> 先装好 [Claude Code](https://docs.claude.com/en/docs/claude-code)。把下文 `agentsope` 换成你实际的 GitHub 用户名 / 组织名。
 
 ---
 
@@ -23,15 +23,15 @@
 **只装 price-detective(快速试)**:
 
 ```bash
-npx skills add <your-github-username>/smartbuy-skills/skills/price-detective
+npx skills add agentsope/smartbuy-skill/skills/price-detective
 ```
 
 **装完整 3 件套**:
 
 ```bash
-npx skills add <your-github-username>/smartbuy-skills/skills/price-detective
-npx skills add <your-github-username>/smartbuy-skills/skills/coupon-stacker
-npx skills add <your-github-username>/smartbuy-skills/skills/promo-predictor
+npx skills add agentsope/smartbuy-skill/skills/price-detective
+npx skills add agentsope/smartbuy-skill/skills/coupon-stacker
+npx skills add agentsope/smartbuy-skill/skills/promo-predictor
 ```
 
 `skills` CLI 来自 [skills.sh](https://skills.sh),会把整个 skill 文件夹装好。
@@ -41,7 +41,7 @@ npx skills add <your-github-username>/smartbuy-skills/skills/promo-predictor
 ## 方式 B — Claude Code 插件市场(整包一次装)
 
 ```text
-/plugin marketplace add https://github.com/<your-github-username>/smartbuy-skills
+/plugin marketplace add https://github.com/agentsope/smartbuy-skill
 /plugin install smartbuy-skills
 ```
 
@@ -52,7 +52,7 @@ npx skills add <your-github-username>/smartbuy-skills/skills/promo-predictor
 ## 方式 C — 手动 copy
 
 ```bash
-git clone https://github.com/<your-github-username>/smartbuy-skills.git
+git clone https://github.com/agentsope/smartbuy-skill.git
 cd smartbuy-skills
 
 # 装 price-detective(必装)
@@ -140,4 +140,4 @@ rm -rf ~/.claude/skills/price-detective # 或其他 skill 名
 
 ---
 
-*中文优先(国内购物场景)。把 `<your-github-username>` 换成你的 GitHub 用户名 / 组织名。*
+*中文优先(国内购物场景)。把 `agentsope` 换成你的 GitHub 用户名 / 组织名。*

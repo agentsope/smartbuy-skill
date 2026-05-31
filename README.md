@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/your-github-username/smartbuy-skills"><img src="https://img.shields.io/github/stars/your-github-username/smartbuy-skills?style=social" alt="Stars"></a>
+  <a href="https://github.com/agentsope/smartbuy-skill"><img src="https://img.shields.io/github/stars/agentsope/smartbuy-skill?style=social" alt="Stars"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License"></a>
   <img src="https://img.shields.io/badge/skills-3-orange" alt="Skills">
 </p>
@@ -30,11 +30,11 @@ smartbuy 是装在 [Claude Code](https://docs.claude.com/en/docs/claude-code) �
 # 先装 Claude Code: https://docs.claude.com/en/docs/claude-code
 
 # 装主 skill(单装也能用)
-npx skills add your-github-username/smartbuy-skills/skills/price-detective
+npx skills add agentsope/smartbuy-skill/skills/price-detective
 
 # 完整三件套(可选)
-npx skills add your-github-username/smartbuy-skills/skills/coupon-stacker
-npx skills add your-github-username/smartbuy-skills/skills/promo-predictor
+npx skills add agentsope/smartbuy-skill/skills/coupon-stacker
+npx skills add agentsope/smartbuy-skill/skills/promo-predictor
 ```
 
 装好后在 Claude Code 里直接说人话:
